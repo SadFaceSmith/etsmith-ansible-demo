@@ -51,6 +51,7 @@
         
       - role: hostname 
         hostname: webserver.eos.com
+        hostname_inject_hosts_files: false
 
       - role: firewalld
         firewalld_zone: public
